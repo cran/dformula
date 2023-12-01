@@ -3,11 +3,11 @@ knitr::opts_chunk$set(echo = TRUE, collapse = TRUE,
                       fig.width = 6, fig.height = 5, 
                       message = FALSE, warning = FALSE)
 
-## ---- message = FALSE---------------------------------------------------------
+## ----message = FALSE----------------------------------------------------------
 library('dformula')
 
-## ---- message = FALSE, eval=FALSE---------------------------------------------
-#  remotes::install_github('dataallaround/dformula')
+## ----message = FALSE, eval=FALSE----------------------------------------------
+#  remotes::install_github('serafinialessio/dformula')
 
 ## -----------------------------------------------------------------------------
 data("population_data")
